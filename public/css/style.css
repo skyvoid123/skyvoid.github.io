@@ -49,7 +49,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Gelasio', 'Nanum Myeongjo', serif;
+	font-family: "JetBrains Mono", "Monaco", "monospace";
 	color: #2c3e50;
 }
 
@@ -73,7 +73,7 @@ pre {
 }
 
 code {
-	font-family: "Menlo", "Consolas", monospace;
+	font-family: "JetBrains Mono", "Monaco", "monospace";
 	font-size: 0.8em;
 	margin: 0px;
 }
@@ -113,7 +113,7 @@ code {
 
 .sidebar-brand > a {
 	font-size: 300%;
-	font-family: 'Gelasio';
+	font-family: "JetBrains Mono", "Monaco", "monospace";
 	color: #fff;
 }
 
@@ -132,7 +132,7 @@ code {
 
 .nav-title {
 	font-size: 100%;
-	font-family: "Noto Sans";
+	font-family: "JetBrains Mono", "Monaco", "monospace";
 	text-transform: uppercase;
 	border-bottom: 1px solid gray;
 	margin-bottom: 5px;
@@ -140,7 +140,7 @@ code {
 
 a.nav-item {
 	font-size: 120%;
-	font-family: "Noto Sans";
+	font-family: "JetBrains Mono", "Monaco", "monospace";
 	text-transform: capitalize;
 	color: #aaa;
 }
@@ -232,7 +232,7 @@ article h3,
 article h4,
 article h5,
 article h6 {
-	font-family: "Roboto", "Nanum Gothic";
+	font-family: "JetBrains Mono", "Monaco", "monospace";
 	color: #333;
   	margin-bottom: 0;
 }
@@ -283,14 +283,14 @@ header.home {
 
 footer {
 	padding-top: 15px;
-	font-family: 'Ubuntu';
+	font-family: "JetBrains Mono", "Monaco", "monospace";
 }
 
 .sidebar-footer {
 	margin-top: 80px;
 	font-size: 0.75em;
 	font-weight: lighter;
-	font-family: "Roboto";
+	font-family: "JetBrains Mono", "Monaco", "monospace";
 	line-height: 1.5;
 }
 
