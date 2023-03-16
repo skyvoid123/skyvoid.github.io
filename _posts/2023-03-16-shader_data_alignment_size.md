@@ -28,7 +28,7 @@ category: Graphics-API
 *   数组的对齐跟尺寸需要参考的值为ArrayStride. (不支持二维数组)
     数组的大小为 元素个数\*ArrayStride
 
-```
+{% highlight C++ %}
 UniformBuffer {
     float a0;       // offset 0, stride 4, total size 4
     float a1[2];    // offset 16, arrayStride 16, total size 16 + 16 * 3 = 48
@@ -41,12 +41,12 @@ UniformBuffer {
     int a8;         // offset 336, stride 4, total size: 340
 }
 // 总分配大小16字节对齐，共352个字节
-```
+{% endhighlight %}
 
 ## Metal
 
 | Type                            | Alignment | Size |
-|:------------------------------- |:---------:|:----:|
+|:-------------------------------:|:---------:|:----:|
 | bool/char                       | 1         | 1    |
 | \[u]int/float                   | 4         | 4    |
 | \[u]int2/float2                 | 8         | 8    |
@@ -96,7 +96,7 @@ CPU端结构体内存布局规则与OpenGL/Vulka规则一致
         16	+--- sizeof(16)
 ```
 
-```
+{% highlight C++ %}
 // 输入的OpenGL
 uniform float f1;
 uniform mat2 m2;
@@ -111,4 +111,4 @@ struct VertexUniformBlock
     char _m2_pad[16];   // 填充16字节，来保证mat2-float2x2尺寸一致，均为32字节
     float f2;
 }
-```
+{% endhighlight %}
